@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1630587829 source:c:\mis c nashe compu nueva\pruebatp1\main.c
+	<stdio.h>
+	<stdlib.h>
+
