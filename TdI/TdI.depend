@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1631135696 source:c:\arqui\tdi\main.c
+1631368906 source:c:\arqui\tdi\main.c
 	<stdio.h>
 	<stdlib.h>
 	<stdbool.h>

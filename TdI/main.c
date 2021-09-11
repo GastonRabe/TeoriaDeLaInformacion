@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
+#define infinito 999
 
 void muestraMat(float mat[][4],char simbolos[][3]);
 void divideMatriz(float mat[][4],float frecuencias[]);
@@ -10,6 +11,7 @@ void muestraMat2(float mat[][4]);
 void vectorEstacionario(float mat[][4],int paso,float vecEstacionario[]);
 void muestraVector(float vec[]);
 bool ergodica(float mat[][4]);
+void inicializaFloyd(float mat[][4]);
 
 
 int main()
@@ -67,9 +69,24 @@ int main()
     printf("Entropia Total de la fuente: %5.3f\n",entropia);
     return 0;
 }
-//VERIFICA QUE SEA UNA FUENTE MARKOVIANA ERGODICA
+//INICIALIZA LA MATRIZ PARA APLICAR ALGORITMO DE FLOYD si i=j -> mat[i][j]=0 y mat[i][j]=0 -> mat[i][j]=infinito
+void inicializaFloyd(float mat[][4]){
+    int i,j;
+    for(i=0 ; i<4 ; i++){
+        mat[i][i]=0;
+    }
+    for(i=0 ; i<4 ; i++){
+        for(j=0 ; j<4 ; j++){
+            if(i!=j){
+                if(mat[i][j]==0)
+                    mat[i][j]=infinito;
+            }
+        }
+    }
+}
+//VERIFICA QUE SEA UNA FUENTE MARKOVIANA ERGODICA primero se busca un bucle de probabilidad =1 y luego sino se procede con FLOYD
 bool ergodica(float mat[][4]){
-    int i=0,j;
+    int i=0,j,k,floyd[4][4];
     float aux;
     bool resp=false;
     while(!resp && i<4){
@@ -79,17 +96,24 @@ bool ergodica(float mat[][4]){
         i++;
     }
     if(!resp){
-        i=0;
-        while(!resp && i<4){
-            aux=0;
-            j=0;
-            while(j<4){
-                if(j!=i)
-                    aux+=mat[i][j];
+        devuelveValores(floyd,mat); //reutilizo funcion para cargar datos
+        inicializaFloyd(floyd);
+        for(k=0; k<4 ; k++){
+            for(j=0 ; j<4 ; j++){
+                for(i=0 ; i<4 ; i++ ){
+                    if((floyd[i][k]+floyd[k][j])< floyd[i][j])
+                        floyd[i][j]=floyd[i][k]+floyd[k][j];
+                }
+            }
+        }
+        while(i<4 && !resp){
+            while(j<4 && !resp){
+                if(i!=j){
+                    if(floyd[i][j]==infinito)
+                        resp=true;
+                }
                 j++;
             }
-            if(aux==0)
-                resp=true;
             i++;
         }
         if(!resp)
