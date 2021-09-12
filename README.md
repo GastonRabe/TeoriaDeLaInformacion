@@ -1,2 +1,2 @@
 # TeoriaDeLaInformacion
-De ahora en más laburamos en base al 1A de gato que anda como loquita
+El 2.0 es lo mismo de lo gaturro pero con huffman que es el 2d, falta una conclusión y si no le pifio lo de ergódica no se si hablaron de eso
