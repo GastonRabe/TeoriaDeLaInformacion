@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1631982477 source:c:\arqui\tdi\main.c
-	<stdio.h>
-	<stdlib.h>
-	<math.h>
-	<string.h>
-
