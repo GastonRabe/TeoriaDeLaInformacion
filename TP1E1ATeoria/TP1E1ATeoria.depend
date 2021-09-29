@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1632852821 source:c:\mis c nashe compu nueva\tp1e1ateoria\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<locale.h>
-
