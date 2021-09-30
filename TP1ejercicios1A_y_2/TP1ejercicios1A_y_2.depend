@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1632867767 source:c:\users\gaston\desktop\teoria de la info\tp primeraparte\tp1ejercicios1a_y_2\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<locale.h>
-
