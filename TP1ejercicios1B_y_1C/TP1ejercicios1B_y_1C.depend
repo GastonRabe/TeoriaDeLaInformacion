@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1633029195 source:c:\mis c nashe compu nueva\tp1ejercicios1b_y_1c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<locale.h>
+

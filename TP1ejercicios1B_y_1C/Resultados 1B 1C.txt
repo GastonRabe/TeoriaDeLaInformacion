@@ -1,0 +1,14 @@
+Probabilidad palabra 00: 0,246
+Probabilidad palabra 01: 0,252
+Probabilidad palabra 10: 0,251
+Probabilidad palabra 11: 0,251
+Matriz de Transición:
+          00      01      10      11
+00	0,2445	0,2440	0,2511	0,2453	
+01	0,2499	0,2460	0,2552	0,2567	
+10	0,2532	0,2460	0,2580	0,2458	
+11	0,2524	0,2641	0,2357	0,2519	
+
+Sumatoria Columnas:|1,000|1,000|1,000|1,000|
+Vector Estacionario V*: |0,2462|0,2519|0,2507|0,2510|
+Entropía total de la fuente: 1,9991 bits

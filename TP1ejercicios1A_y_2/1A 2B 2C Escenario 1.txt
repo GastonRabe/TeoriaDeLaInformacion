@@ -1,0 +1,39 @@
+Fuente con palabras de 5 dígitos:
+Símbolo: 11011 / Cantidad de información del símbolo: 4,87
+Símbolo: 11111 / Cantidad de información del símbolo: 5,05
+Símbolo: 01101 / Cantidad de información del símbolo: 4,81
+Símbolo: 11100 / Cantidad de información del símbolo: 5,11
+Símbolo: 10011 / Cantidad de información del símbolo: 5,10
+Símbolo: 01011 / Cantidad de información del símbolo: 4,96
+Símbolo: 11001 / Cantidad de información del símbolo: 4,91
+Símbolo: 10110 / Cantidad de información del símbolo: 5,02
+Símbolo: 01111 / Cantidad de información del símbolo: 4,87
+Símbolo: 10001 / Cantidad de información del símbolo: 4,98
+Símbolo: 10010 / Cantidad de información del símbolo: 4,99
+Símbolo: 11000 / Cantidad de información del símbolo: 4,91
+Símbolo: 10000 / Cantidad de información del símbolo: 5,00
+Símbolo: 01000 / Cantidad de información del símbolo: 4,88
+Símbolo: 01001 / Cantidad de información del símbolo: 5,23
+Símbolo: 00000 / Cantidad de información del símbolo: 5,00
+Símbolo: 00100 / Cantidad de información del símbolo: 5,13
+Símbolo: 00010 / Cantidad de información del símbolo: 5,24
+Símbolo: 11110 / Cantidad de información del símbolo: 4,96
+Símbolo: 10101 / Cantidad de información del símbolo: 4,92
+Símbolo: 10111 / Cantidad de información del símbolo: 5,01
+Símbolo: 01010 / Cantidad de información del símbolo: 5,04
+Símbolo: 01100 / Cantidad de información del símbolo: 4,97
+Símbolo: 11010 / Cantidad de información del símbolo: 5,03
+Símbolo: 00011 / Cantidad de información del símbolo: 5,02
+Símbolo: 00110 / Cantidad de información del símbolo: 4,97
+Símbolo: 11101 / Cantidad de información del símbolo: 5,08
+Símbolo: 00111 / Cantidad de información del símbolo: 5,13
+Símbolo: 10100 / Cantidad de información del símbolo: 4,85
+Símbolo: 00001 / Cantidad de información del símbolo: 5,04
+Símbolo: 01110 / Cantidad de información del símbolo: 5,02
+Símbolo: 00101 / Cantidad de información del símbolo: 4,98
+Cumple con la inecuación de Kraft/McMillan: 1,0
+Cantidad de información total de la fuente: 160,1 (en bits)
+Entropía total de la fuente:   5,0 (en bits)
+Longitud media del código: 5,00
+El código es candidato a ser compacto
+Rendimiento del código: 0,999339 / Redundancia del código: 0,000661
