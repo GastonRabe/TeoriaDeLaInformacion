@@ -1,0 +1,14 @@
+Simbolo: 0 Código Huffman: 00
+Simbolo: 5 Código Huffman: 010000
+Simbolo: 3 Código Huffman: 010001
+Simbolo: 2 Código Huffman: 010010
+Simbolo: 1 Código Huffman: 010011
+Simbolo: 4 Código Huffman: 0101
+Simbolo: 7 Código Huffman: 011
+Simbolo: 6 Código Huffman: 1
+--------------------------------------------------------------------
+Entropia del código: 1.071487925930408
+Longitud media del código: 1.375518798828125
+Rendimiento del código: 0.7789700343196062
+Redundancia del código: 0.2210299656803938
+Tasa de compresión: 0.726998424777583:1
