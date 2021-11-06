@@ -1,0 +1,5 @@
+Tasa de compresión 10.729535036018337:1
+Entropía: 1.0714706471960451 bits
+Longitud Media: 18.0 bits
+Rendimiento: 0.059526147066446954
+Redundancia: 0.940473852933553
