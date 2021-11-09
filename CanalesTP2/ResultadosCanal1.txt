@@ -1,0 +1,50 @@
+Matriz de pasaje del canal
+    b1    b2    b3
+a1  0,300 0,300 0,400 
+a2  0,400 0,400 0,200 
+a3  0,300 0,300 0,400 
+a4  0,300 0,400 0,300 
+a5  0,300 0,400 0,300 
+Probabilidades a priori P(ai)
+0.15 0.2 0.2 0.3 0.15 
+Probabilidades a la salida P(bj)
+0,320 0,365 0,315 
+Matriz de Probabilidades Condicionales P(bj/ai)
+    b1    b2    b3
+a1  0,141 0,123 0,190 
+a2  0,250 0,219 0,127 
+a3  0,188 0,164 0,254 
+a4  0,281 0,329 0,286 
+a5  0,141 0,164 0,143 
+Matriz de Probabilidades de Sucesos Simultáneos
+    b1    b2    b3
+a1  0,045 0,045 0,060 
+a2  0,080 0,080 0,040 
+a3  0,060 0,060 0,080 
+a4  0,090 0,120 0,090 
+a5  0,045 0,060 0,045 
+Matriz de Equivocación
+    b1    b2    b3
+a1  0,127 0,136 0,144 
+a2  0,160 0,175 0,119 
+a3  0,145 0,156 0,158 
+a4  0,165 0,193 0,163 
+a5  0,127 0,156 0,126 
+Matriz de Entropía Afín
+    b1    b2    b3
+a1  0,201 0,201 0,244 
+a2  0,292 0,292 0,186 
+a3  0,244 0,244 0,292 
+a4  0,313 0,367 0,313 
+a5  0,201 0,244 0,201 
+Entropía a priori del canal H(A): 2.2709506
+Equivocación del canal H(A/B): 2.2503698
+Información mutua del canal I(A,B): 0.020580769
+Entropía Afín del canal H(A,B): 3.8320968
+H(B) del canal: 1.581727
+H(B/A) o pérdida del canal: 1.5611461
+I(B,A) del canal: 0.020580888
+Cumple con la propiedad de pérdida no nula de información I(A,B)>=0
+Se cumple con la propiedad simetrica I(A,B)=I(B,A)
+Se cumple I(A,B)=H(B)-H(B/A)
+Se cumple H(A,B)=H(A)+H(B)-I(A,B)
