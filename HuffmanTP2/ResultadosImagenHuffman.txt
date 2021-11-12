@@ -1,0 +1,14 @@
+Simbolo [simbolo=5, probabilidad=0.002197265625, codigoHuffman=010000]
+Simbolo [simbolo=3, probabilidad=0.00341796875, codigoHuffman=010001]
+Simbolo [simbolo=2, probabilidad=0.0038604736328125, codigoHuffman=010010]
+Simbolo [simbolo=1, probabilidad=0.00421142578125, codigoHuffman=010011]
+Simbolo [simbolo=4, probabilidad=0.02874755859375, codigoHuffman=0101]
+Simbolo [simbolo=7, probabilidad=0.069732666015625, codigoHuffman=011]
+Simbolo [simbolo=0, probabilidad=0.0813751220703125, codigoHuffman=00]
+Simbolo [simbolo=6, probabilidad=0.80645751953125, codigoHuffman=1]
+--------------------------------------------------------------------
+Entropia del código: 1.071487925930408
+Longitud media del código: 1.375518798828125
+Rendimiento del código: 0.7789700343196062
+Redundancia del código: 0.2210299656803938
+Tasa de compresión: 5.815955275534653:1
